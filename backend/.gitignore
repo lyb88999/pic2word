@@ -1,0 +1,29 @@
+# 排除编译后的二进制文件
+*.exe
+*.out
+*.o
+*.a
+*.so
+__debug_bin
+
+# 排除依赖和构建文件
+/vendor/
+/bin/
+/tmp/
+
+# 排除环境配置
+.env
+
+# 排除IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 排除系统文件
+.DS_Store
+Thumbs.db
+
+# 排除日志文件
+*.log 

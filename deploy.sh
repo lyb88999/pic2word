@@ -18,7 +18,7 @@ INSTALL_DIR="/opt/pic2word"
 FRONTEND_PORT=80
 BACKEND_PORT=8080
 DOMAIN=""  # 替换为您的域名
-GOOGLE_API_KEY="AIzaSyAbL3mNHTnk8_FlOG8S978UKQy274OC-MQ"  # 替换为您的Google API密钥
+GOOGLE_API_KEY=""  # 替换为您的Google API密钥
 
 # 函数：打印带颜色的信息
 print_message() {
